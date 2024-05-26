@@ -98,4 +98,6 @@ source ~/.config/fish/config.fish
 brew --version
 ```
 
+11. Instalar Genymotion (emulador de andoid)<br>
+Assista esse video: https://www.youtube.com/watch?v=T0cKaHrF6CI
 
