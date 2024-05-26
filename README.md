@@ -79,3 +79,23 @@ sudo gedit ~/.profile
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 ```
+
+10. Instale o homebrew e configure no fish terminal para executar o brew
+```
+# Instalar homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# Editar arquivo
+gedit ~/.config/fish/config.fish
+
+# Adicionar no final da linha do config.fish
+set -gx PATH /home/linuxbrew/.linuxbrew/bin $PATH
+
+# Recarregue o arquivo de configuração
+source ~/.config/fish/config.fish
+
+# Verifica se está funcionando
+brew --version
+```
+
+
